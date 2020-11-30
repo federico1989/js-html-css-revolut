@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* utility */
+.bg_purple {
+  background: #eb008d;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.float_left {
+  float:left;
+}
+
+/* /utility */
+/* site */
+#site_header {
+  height: 900px;
+}
+
+/* /site */
+/* nav top */
+.nav_top {
+  height: 80px;
+  font-size: 15px;
+  line-height: 80px;
+  text-transform: capitalize;
+}
+.nav_top::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* menu left */
+.menu_left, .menu_right {
+  float: left;
+}
+.menu_left > img {
+  margin-top: 20px;
+}
+.menu_right > .text_white {
+  color: white;
+}
+.menu_left a, .menu_right span {
+  color:	lightgrey;
+  font-weight: 300;
+  text-decoration: none;
+}
+.menu_left a, .menu_right span{
+  padding: 10px;
+}
+strong {
+  color: black;
+}
+.left_top {
+  width: 30%;
+}
+.left_top i{
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.right_top span {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* /menu left */
+/* menu right */
+.right_top  {
+  width: 70%;
+  text-align: right;
+}
+
+.btn_sm {
+  padding: 50px;
+  border-radius: 20px;
+  border: 1px solid #eb008d;
+  text-decoration: none;
+  color: white;
+}
+.card {
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  display: none;
+}
+/* /menu right */
+/* /nav top */
+/* nav main */
