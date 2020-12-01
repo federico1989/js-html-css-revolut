@@ -1,15 +1,27 @@
-var open = $('.menu_right .float_left');
-console.log(open);
+$(function (){
 
-open.click(function() {
-  console.log("ok");
-  $(this).find(".card").show();
-});
+var dropDown = $('span.dropdown');
 
-var close = $('.menu_right .float_left');
-// console.log(close);
 
-close.click(function() {
-  // console.log("ok");
-  $(this).find(".card").hide();
+dropDown.hover(
+
+
+    function (){
+    // handler In
+
+    $(this).children('ul.m_dropdown').removeClass('d_none');
+
+
+    },
+
+    function (){
+    // handler Out
+
+    $(this).children("ul.m_dropdown").addClass("d_none");
+
+    }
+
+
+)
+
 });

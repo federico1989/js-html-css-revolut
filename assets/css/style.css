@@ -17,7 +17,9 @@ body {
 .float_left {
   float:left;
 }
-
+.d_none {
+  display: none;
+}
 /* /utility */
 /* site */
 #site_header {
@@ -86,7 +88,6 @@ strong {
   color: white;
 }
 .card {
-  list-style: none;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid lightgrey;
