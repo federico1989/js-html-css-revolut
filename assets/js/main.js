@@ -1,7 +1,7 @@
 $(function (){
 
-var dropDown = $('span.dropdown');
-
+var dropDown = $('span');
+var list = $("m_dropdown");
 
 dropDown.hover(
 
@@ -9,7 +9,7 @@ dropDown.hover(
     function (){
     // handler In
 
-    $(this).children('ul.m_dropdown').removeClass('d_none');
+    list.removeClass('d_none');
 
 
     },
@@ -17,7 +17,7 @@ dropDown.hover(
     function (){
     // handler Out
 
-    $(this).children("ul.m_dropdown").addClass("d_none");
+    list.addClass("d_none");
 
     }
 
